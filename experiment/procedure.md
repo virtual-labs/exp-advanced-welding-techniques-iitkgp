@@ -21,6 +21,6 @@
     - Select the ***Rotation Speed (RPM)*** from dropdown list
     - Enter the ***Weld Speed (mm/min)*** in the input box with in the range of (0-450)
     - Click on ***Submit*** button to start the process
-    - Observe the calculated T***orque (N-m)*** value after the process
+    - Observe the calculated ***Torque (N-m)*** value after the process
     - Repeat the experiment with different values
 - Repeat the experiment with different Welding Technique

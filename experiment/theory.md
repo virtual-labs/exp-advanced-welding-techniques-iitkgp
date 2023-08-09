@@ -117,7 +117,7 @@ For gaussian beam profile M<sup>2</sup> = 1.
 
 Lasers that are widely used for welding applications include CO2, Nd: YAG, and Fiber laser based on their wavelength, power output and beam diameter. The typical characteristics of some of these lasers are shown in Table 1. In the case of laser welding or other material processing operations, lasers are used as a high-intensity heat source for heating, melting, and vaporizing the material being processed. Some of the major characteristics of lasers that are significant for material processing applications like welding include power density & its distribution at the focal point, wavelength (λ), beam divergence quality & size.
 
-<center>
+
 			 
 ***Table 1. Characteristics of typical lasers used in welding***
 
@@ -127,7 +127,6 @@ Lasers that are widely used for welding applications include CO2, Nd: YAG, and F
 |Nd: YAG	|1.06|	0.04-800|	0.02-0.05|
 |Yb: Fiber|	1.03-1.11|	200-1000|	0.05-0.1|
 
-</center>
 
 
 ## Applications of Laser Beam Welding
@@ -149,7 +148,7 @@ Lasers that are widely used for welding applications include CO2, Nd: YAG, and F
 4.	Highly accurate
 5.	Low total thermal input
 6.	It is possible to transmit over long distances with only a small amount of power being lost.
-7.	 It can join dissimilar materials.
+7.	It can join dissimilar materials.
 
 ## Limitations
 1.	Due to the rapid cooling rate, certain metals may crack.
@@ -191,7 +190,7 @@ In conclusion, Friction Stir Welding is a versatile and efficient method for wel
 ## Friction Stir Welding (FSW) process parameters and their influence on the weld are:
 1.	***Tool rotational speed:*** The tool’s rotational speed directly impacts the heat input and the temperature of the material. Higher rotational speeds increase the heat input and can cause higher temperatures in the weld.
 2.	***Tool traverse speed:*** The traverse speed of the tool influences the size and shape of the weld, as well as the heat input into the material. Slower traverse speeds result in larger, more convex welds with lower heat input, while faster traverse speeds result in smaller, more concave welds with higher heat input.
-3.	 ***Torque:*** This is an important parameter in FSW as it depends on the tool rotational speed and tool traverse speed. It effects the stir zone characteristics and formation of defects. It directly influences the temperature of the weld zone.
+3.	***Torque:*** This is an important parameter in FSW as it depends on the tool rotational speed and tool traverse speed. It effects the stir zone characteristics and formation of defects. It directly influences the temperature of the weld zone.
 4.	***Tool plunge depth:*** The depth at which the tool plunges into the material directly impacts the strength and quality of the weld. Deeper plunges result in stronger welds, but can also increase the risk of defects and porosity.
 5.	***Shoulder diameter and shape:*** The shape and size of the shoulder determine the amount of material displaced during the welding process and can impact the strength and quality of the weld.
 6.	***Pin profile:*** The shape of the pin profile affects the flow of the material and the amount of heat generated during the welding process. Different pin profiles can be used to optimize the process for specific materials and applications.
