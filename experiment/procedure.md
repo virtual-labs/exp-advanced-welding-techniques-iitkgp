@@ -1,1 +1,26 @@
-### Procedure
+# Procedure
+
+- ***Before starting the process read the instructions completely***
+- Select either ***Laser Welding*** or ***Friction Stir Welding***
+- If ***Laser Welding*** is selected follow the below steps.
+    - Select either ***Meltpool and Temparature Evaluation*** or ***Laser Power Profile***
+        - If ***Meltpool and Temparature Evaluation*** is selcted then follow the below dteps
+            - Select one ***Laser-Power (in Watts)*** value from 1000, 1500 or 2000 radio buttons
+            - Select one ***Scan-speed (in mm/sec)*** value from 1200, 1300 or 1500 radio buttons
+            - Click on ***Submit*** button and ***wait*** for the generation of the result
+            - Observe the out put below and its result
+            - Repeat the experiment by entering the different values and Submit
+        - If ***Laser Power Profile*** is selcted then follow the below dteps
+            - Enter the value of ***Beam Diameter (cms)***
+            - Enter the value of ***Power (Watts)***
+            - Click on ***Submit*** button and ***wait*** for the generation of the result
+            - Observe the ***Power Distribution on Focal Plane*** plot
+            - Repeat the experiment by entering the different values and Submit
+        - Repeat the experiment by selecting the other tecnique.
+- If ***Friction Stir Welding*** is selected follow the below steps.
+    - Select the ***Rotation Speed (RPM)*** from dropdown list
+    - Enter the ***Weld Speed (mm/min)*** in the input box with in the range of (0-450)
+    - Click on ***Submit*** button to start the process
+    - Observe the calculated ***Torque (N-m)*** value after the process
+    - Repeat the experiment with different values
+- Repeat the experiment with different Welding Technique

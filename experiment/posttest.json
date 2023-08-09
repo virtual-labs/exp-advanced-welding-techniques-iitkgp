@@ -2,38 +2,117 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the purpose of rotating tool used in Friction Stir Welding?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To generate heat",
+        "b": "To generate pressure",
+        "c": "To generate friction",
+        "d": "All of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+ {
+      "question": "In conduction welding, the laser energy is primarily absorbed by the",
+      "answers": {
+        "a": "The surface of the workpiece",
+        "b": "The entire volume of the workpiece",
+        "c": "Surrounding atmosphere",
+        "d": "The filler material used in the welding process"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
+{
+      "question": "What is the main advantage of Friction Stir Welding over traditional welding methods?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Lower welding temperatures",
+        "b": "Higher welding speeds",
+        "c": "Higher quality welds",
+        "d": "All of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which one of the following welding has less heat affected zone?",
+      "answers": {
+        "a": "Metal inert gas welding",
+        "b": "Laser welding",
+        "c": "Tungsten inert gas welding",
+        "d": "Submerged arc welding"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the typical beam quality M^2 value of the real Gaussian laser beam?",
+      "answers": {
+        "a": "<1",
+        "b": "≈ 1",
+        "c": ">1",
+        "d": "=1"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which of the following is a limitation of laser welding?",
+      "answers": {
+        "a": "Low total thermal input",
+        "b": "Welding of highly reflective material",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "In laser welding, the term keyhole refers to",
+      "answers":{ 
+        "a": "A special type of laser beam used for welding",
+        "b": "A defect caused by improper welding parameters",
+        "c": "A cavity formed in the metal during welding",
+        "d": "The safety features that prevent accidental laser exposer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+{
+      "question": "The size and shape of the weld material in friction stir welding depends on which of the following parameters?",
+      "answers":{ 
+        "a": "Tool tilt angle",
+        "b": "Tool plunge depth",
+        "c": "Tool rotational speed ",
+        "d": "Pin profile"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Friction stir welding tool is made up of which material?",
+      "answers":{ 
+        "a": "Soft materials ",
+        "b": "Hard materials ",
+        "c": "Soft & wear resistant material",
+        "d": "Hard & wear resistant material"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What happens to beam radius as we move away from beam waist in the direction along the line of propagation of the laser beam?",
+      "answers":{ 
+        "a": "Increases ",
+        "b": "Decreases "
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
-  ]
+]
 }
+
+
+
+
+
