@@ -1,0 +1,63 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What type of welding process is Friction Stir Welding?",
+      "answers": {
+        "a": "Fusion welding",
+        "b": "Solid-state welding",
+        "c": "Resistance welding",
+        "d": "Gas Welding"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the main principle behind Friction Stir Welding?",
+      "answers": {
+        "a": "Heat generation through friction",
+        "b": "Electrode melting ",
+        "c": "Gas shielding",
+        "d": "Chemical reaction"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  {
+      "question": "What is the temperature range during Friction Stir Welding?",
+      "answers": {
+        "a": "Above melting point temperature",
+        "b": "Below melting point temperature",
+        "c": "Equal to melting point temperature",
+        "d": "Two times melting point temperature"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+{
+      "question": "In the acronym LASER, the letter ‘S’ stands for",
+      "answers": {
+        "a": "Source",
+        "b": "Scattering",
+        "c": "Excitation",
+        "d": "Stimulated"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Laser welding is a suitable method for joining",
+      "answers": {
+        "a": "Only similar metals",
+        "b": "Only dissimilar metals",
+        "c": "Both similar and dissimilar",
+        "d": "Only non-metallic materials"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+
+]
+}
+
+

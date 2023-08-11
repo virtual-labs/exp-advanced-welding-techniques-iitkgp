@@ -1,0 +1,337 @@
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/adilaser.js
+    8:1   warning  '$' is not defined                          no-undef
+    9:1   warning  '$' is not defined                          no-undef
+   11:5   warning  'adi1' is assigned a value but never used   no-unused-vars
+   11:12  warning  'adi2' is assigned a value but never used   no-unused-vars
+   12:10  warning  'adilsr' is defined but never used          no-unused-vars
+   15:9   warning  '$' is not defined                          no-undef
+   18:9   warning  '$' is not defined                          no-undef
+   19:9   warning  '$' is not defined                          no-undef
+   21:5   warning  '$' is not defined                          no-undef
+   22:5   warning  '$' is not defined                          no-undef
+   23:9   warning  '$' is not defined                          no-undef
+   24:11  warning  '$' is not defined                          no-undef
+   28:9   warning  '$' is not defined                          no-undef
+   29:9   warning  '$' is not defined                          no-undef
+   31:5   warning  '$' is not defined                          no-undef
+   32:5   warning  '$' is not defined                          no-undef
+   33:9   warning  '$' is not defined                          no-undef
+   34:11  warning  '$' is not defined                          no-undef
+   38:9   warning  '$' is not defined                          no-undef
+   39:9   warning  '$' is not defined                          no-undef
+   41:5   warning  '$' is not defined                          no-undef
+   42:5   warning  '$' is not defined                          no-undef
+   43:9   warning  '$' is not defined                          no-undef
+   44:11  warning  '$' is not defined                          no-undef
+   48:9   warning  '$' is not defined                          no-undef
+   49:9   warning  '$' is not defined                          no-undef
+   51:5   warning  '$' is not defined                          no-undef
+   52:5   warning  '$' is not defined                          no-undef
+   53:9   warning  '$' is not defined                          no-undef
+   54:11  warning  '$' is not defined                          no-undef
+   58:9   warning  '$' is not defined                          no-undef
+   59:9   warning  '$' is not defined                          no-undef
+   61:5   warning  '$' is not defined                          no-undef
+   62:5   warning  '$' is not defined                          no-undef
+   63:9   warning  '$' is not defined                          no-undef
+   64:11  warning  '$' is not defined                          no-undef
+   68:9   warning  '$' is not defined                          no-undef
+   69:9   warning  '$' is not defined                          no-undef
+   71:5   warning  '$' is not defined                          no-undef
+   72:5   warning  '$' is not defined                          no-undef
+   73:9   warning  '$' is not defined                          no-undef
+   74:11  warning  '$' is not defined                          no-undef
+   78:9   warning  '$' is not defined                          no-undef
+   79:9   warning  '$' is not defined                          no-undef
+   81:5   warning  '$' is not defined                          no-undef
+   82:5   warning  '$' is not defined                          no-undef
+   83:9   warning  '$' is not defined                          no-undef
+   84:11  warning  '$' is not defined                          no-undef
+   88:9   warning  '$' is not defined                          no-undef
+   89:9   warning  '$' is not defined                          no-undef
+   91:5   warning  '$' is not defined                          no-undef
+   92:5   warning  '$' is not defined                          no-undef
+   93:9   warning  '$' is not defined                          no-undef
+   94:11  warning  '$' is not defined                          no-undef
+   98:9   warning  '$' is not defined                          no-undef
+   99:9   warning  '$' is not defined                          no-undef
+  101:5   warning  '$' is not defined                          no-undef
+  102:5   warning  '$' is not defined                          no-undef
+  103:9   warning  '$' is not defined                          no-undef
+  104:11  warning  '$' is not defined                          no-undef
+  107:2   warning  Unnecessary semicolon                       no-extra-semi
+  110:25  warning  'loadPyodide' is not defined                no-undef
+  117:20  warning  'evaluatePython' is defined but never used  no-unused-vars
+  162:1   warning  'Plotly' is not defined                     no-undef
+  165:13  warning  '$' is not defined                          no-undef
+  168:9   warning  '$' is not defined                          no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/adiwe11.js
+    8:5   warning  'ch' is assigned a value but never used   no-unused-vars
+   10:5   warning  'x_0' is assigned a value but never used  no-unused-vars
+   10:14  warning  'y_0' is assigned a value but never used  no-unused-vars
+   12:1   warning  '$' is not defined                        no-undef
+   14:5   warning  '$' is not defined                        no-undef
+   19:9   warning  'i' is not defined                        no-undef
+   19:13  warning  'i' is not defined                        no-undef
+   19:19  warning  'i' is not defined                        no-undef
+   20:13  warning  'i' is not defined                        no-undef
+   20:19  warning  'i' is not defined                        no-undef
+   23:2   warning  Unnecessary semicolon                     no-extra-semi
+   28:9   warning  '$' is not defined                        no-undef
+   33:9   warning  '$' is not defined                        no-undef
+   35:23  warning  '$' is not defined                        no-undef
+   35:51  warning  '$' is not defined                        no-undef
+   36:31  warning  '$' is not defined                        no-undef
+   36:54  warning  '$' is not defined                        no-undef
+   40:17  warning  '$' is not defined                        no-undef
+   41:17  warning  '$' is not defined                        no-undef
+   42:17  warning  '$' is not defined                        no-undef
+   43:17  warning  '$' is not defined                        no-undef
+   49:13  warning  '$' is not defined                        no-undef
+   50:13  warning  '$' is not defined                        no-undef
+   51:13  warning  '$' is not defined                        no-undef
+   52:13  warning  '$' is not defined                        no-undef
+   57:2   warning  Unnecessary semicolon                     no-extra-semi
+   59:10  warning  'adimul' is defined but never used        no-unused-vars
+   61:9   warning  'i' is not defined                        no-undef
+   61:13  warning  'i' is not defined                        no-undef
+   61:26  warning  'i' is not defined                        no-undef
+   62:13  warning  'i' is not defined                        no-undef
+   62:23  warning  'i' is not defined                        no-undef
+   62:29  warning  'i' is not defined                        no-undef
+   65:2   warning  Unnecessary semicolon                     no-extra-semi
+   85:4   warning  Unnecessary semicolon                     no-extra-semi
+   89:9   warning  'i' is not defined                        no-undef
+   89:13  warning  'i' is not defined                        no-undef
+   89:26  warning  'i' is not defined                        no-undef
+   90:13  warning  'i' is not defined                        no-undef
+   90:28  warning  'i' is not defined                        no-undef
+   93:2   warning  Unnecessary semicolon                     no-extra-semi
+   95:10  warning  'adismatmul' is defined but never used    no-unused-vars
+   97:9   warning  'i' is not defined                        no-undef
+   97:13  warning  'i' is not defined                        no-undef
+   97:26  warning  'i' is not defined                        no-undef
+   98:13  warning  'i' is not defined                        no-undef
+   98:23  warning  'i' is not defined                        no-undef
+  101:2   warning  Unnecessary semicolon                     no-extra-semi
+  106:9   warning  'i' is not defined                        no-undef
+  106:13  warning  'i' is not defined                        no-undef
+  106:26  warning  'i' is not defined                        no-undef
+  107:13  warning  'i' is not defined                        no-undef
+  107:29  warning  'i' is not defined                        no-undef
+  110:2   warning  Unnecessary semicolon                     no-extra-semi
+  112:10  warning  'adismatsum' is defined but never used    no-unused-vars
+  114:9   warning  'i' is not defined                        no-undef
+  114:13  warning  'i' is not defined                        no-undef
+  114:26  warning  'i' is not defined                        no-undef
+  115:13  warning  'i' is not defined                        no-undef
+  115:23  warning  'i' is not defined                        no-undef
+  118:2   warning  Unnecessary semicolon                     no-extra-semi
+  120:10  warning  'adimatsum' is defined but never used     no-unused-vars
+  122:9   warning  'i' is not defined                        no-undef
+  122:13  warning  'i' is not defined                        no-undef
+  122:27  warning  'i' is not defined                        no-undef
+  123:13  warning  'i' is not defined                        no-undef
+  123:20  warning  'i' is not defined                        no-undef
+  123:27  warning  'i' is not defined                        no-undef
+  126:2   warning  Unnecessary semicolon                     no-extra-semi
+  136:5   warning  'xa' is not defined                       no-undef
+  137:5   warning  'ya' is not defined                       no-undef
+  138:5   warning  'XY' is not defined                       no-undef
+  138:16  warning  'xa' is not defined                       no-undef
+  138:19  warning  'ya' is not defined                       no-undef
+  139:5   warning  'r1' is not defined                       no-undef
+  139:26  warning  'XY' is not defined                       no-undef
+  139:45  warning  'XY' is not defined                       no-undef
+  140:5   warning  'Qv' is not defined                       no-undef
+  140:25  warning  'r1' is not defined                       no-undef
+  141:17  warning  'r1' is not defined                       no-undef
+  142:23  warning  'XY' is not defined                       no-undef
+  143:23  warning  'XY' is not defined                       no-undef
+  144:23  warning  'Qv' is not defined                       no-undef
+  146:5   warning  'Plotly' is not defined                   no-undef
+  146:53  warning  'layout' is not defined                   no-undef
+  151:2   warning  Unnecessary semicolon                     no-extra-semi
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/adiwe5.js
+   11:5   warning  'i' is already defined  no-redeclare
+   12:1   warning  '$' is not defined      no-undef
+   30:9   warning  '$' is not defined      no-undef
+   31:9   warning  '$' is not defined      no-undef
+   33:9   warning  '$' is not defined      no-undef
+   34:9   warning  '$' is not defined      no-undef
+   36:9   warning  '$' is not defined      no-undef
+   40:9   warning  '$' is not defined      no-undef
+   41:9   warning  '$' is not defined      no-undef
+   42:9   warning  '$' is not defined      no-undef
+   43:9   warning  '$' is not defined      no-undef
+   44:9   warning  '$' is not defined      no-undef
+   45:9   warning  '$' is not defined      no-undef
+   46:9   warning  '$' is not defined      no-undef
+   50:9   warning  '$' is not defined      no-undef
+   51:9   warning  '$' is not defined      no-undef
+   52:9   warning  '$' is not defined      no-undef
+   53:9   warning  '$' is not defined      no-undef
+   54:9   warning  '$' is not defined      no-undef
+   55:9   warning  '$' is not defined      no-undef
+   56:9   warning  '$' is not defined      no-undef
+   60:9   warning  '$' is not defined      no-undef
+   61:9   warning  '$' is not defined      no-undef
+   62:9   warning  '$' is not defined      no-undef
+   63:9   warning  '$' is not defined      no-undef
+   64:9   warning  '$' is not defined      no-undef
+   65:9   warning  '$' is not defined      no-undef
+   66:8   warning  '$' is not defined      no-undef
+   69:9   warning  '$' is not defined      no-undef
+   70:9   warning  '$' is not defined      no-undef
+   73:17  warning  '$' is not defined      no-undef
+   81:13  warning  '$' is not defined      no-undef
+   89:17  warning  '$' is not defined      no-undef
+   92:17  warning  '$' is not defined      no-undef
+  100:17  warning  '$' is not defined      no-undef
+  108:17  warning  '$' is not defined      no-undef
+  116:17  warning  '$' is not defined      no-undef
+  120:21  warning  '$' is not defined      no-undef
+  129:17  warning  '$' is not defined      no-undef
+  137:17  warning  '$' is not defined      no-undef
+  145:24  warning  '$' is not defined      no-undef
+  149:21  warning  '$' is not defined      no-undef
+  158:17  warning  '$' is not defined      no-undef
+  166:17  warning  '$' is not defined      no-undef
+  174:24  warning  '$' is not defined      no-undef
+  178:21  warning  '$' is not defined      no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/bootstrap.min.js
+  2:319    warning  'jQuery' is not defined                 no-undef
+  2:1071   warning  'jQuery' is not defined                 no-undef
+  2:2016   warning  'jQuery' is not defined                 no-undef
+  2:3965   warning  'jQuery' is not defined                 no-undef
+  2:8001   warning  'jQuery' is not defined                 no-undef
+  2:11369  warning  'jQuery' is not defined                 no-undef
+  2:13732  warning  'jQuery' is not defined                 no-undef
+  2:19734  warning  'jQuery' is not defined                 no-undef
+  2:27338  warning  'a' is assigned a value but never used  no-unused-vars
+  2:28677  warning  'jQuery' is not defined                 no-undef
+  2:30264  warning  'jQuery' is not defined                 no-undef
+  3:648    warning  'jQuery' is not defined                 no-undef
+  3:2468   warning  'jQuery' is not defined                 no-undef
+  3:4879   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/breakpoints.min.js
+  334:39  warning  Unnecessary semicolon    no-extra-semi
+  340:39  warning  'define' is not defined  no-undef
+  341:4   warning  'define' is not defined  no-undef
+  345:4   warning  'module' is not defined  no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/browser.min.js
+   83:33  warning  Unnecessary escape character: \.  no-useless-escape
+   84:41  warning  Unnecessary escape character: \.  no-useless-escape
+   85:39  warning  Unnecessary escape character: \.  no-useless-escape
+   86:27  warning  Unnecessary escape character: \.  no-useless-escape
+   87:29  warning  Unnecessary escape character: \.  no-useless-escape
+   88:27  warning  Unnecessary escape character: \.  no-useless-escape
+   89:32  warning  Unnecessary escape character: \.  no-useless-escape
+   90:31  warning  Unnecessary escape character: \.  no-useless-escape
+  116:48  warning  'v' is defined but never used     no-unused-vars
+  117:34  warning  Unnecessary escape character: \.  no-useless-escape
+  118:32  warning  Unnecessary escape character: \.  no-useless-escape
+  120:35  warning  Unnecessary escape character: \.  no-useless-escape
+  121:41  warning  Unnecessary escape character: \.  no-useless-escape
+  122:39  warning  Unnecessary escape character: \.  no-useless-escape
+  155:39  warning  'define' is not defined           no-undef
+  156:4   warning  'define' is not defined           no-undef
+  160:4   warning  'module' is not defined           no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5774   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:6247   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6501   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6932   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7158   warning  Empty block statement                                                      no-empty
+  2:7720   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9786   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:10096  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11897  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12473  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12511  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12929  warning  Empty block statement                                                      no-empty
+  2:13543  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13855  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15679  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15950  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16150  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16526  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17229  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19571  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19671  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19731  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21090  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21704  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21815  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24136  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:24200  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:24202  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:1907   warning  Empty block statement                                                      no-empty
+  3:5602   warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:6813   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:6953   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7591   warning  Empty block statement                                                      no-empty
+  3:14345  warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:16613  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:18185  warning  Empty block statement                                                      no-empty
+  3:25385  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:27946  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:246    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1955   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2021   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2360   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2426   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2843   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:3120   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:8856   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11348  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:12069  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:15632  warning  Empty block statement                                                      no-empty
+  4:22290  warning  'define' is not defined                                                    no-undef
+  4:22302  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/main.js
+   55:11  warning  'getRandomArbitrary' is defined but never used  no-unused-vars
+   56:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   59:11  warning  'sound' is defined but never used               no-unused-vars
+   75:3   warning  '$banner' is assigned a value but never used    no-unused-vars
+   79:2   warning  'breakpoints' is not defined                    no-undef
+  117:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  118:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  119:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  120:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  129:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  130:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  135:4   warning  'jQuery' is not defined                         no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/main_lc.js
+  101:3  warning  '$banner' is assigned a value but never used  no-unused-vars
+  105:2  warning  'breakpoints' is not defined                  no-undef
+  137:4  warning  'jQuery' is not defined                       no-undef
+
+/home/runner/work/exp-advanced-welding-techniques-iitkgp/exp-advanced-welding-techniques-iitkgp/experiment/simulation/js/util.js
+    7:4   warning  '$a' is not defined                no-undef
+    8:4   warning  'b' is not defined                 no-undef
+   10:3   warning  '$a' is not defined                no-undef
+   17:4   warning  'b' is not defined                 no-undef
+   30:10  warning  'b' is not defined                 no-undef
+   95:33  warning  Invalid typeof comparison value    valid-typeof
+  435:22  warning  'event' is defined but never used  no-unused-vars
+  528:28  warning  Invalid typeof comparison value    valid-typeof
+  584:4   warning  'jQuery' is not defined            no-undef
+
+✖ 311 problems (0 errors, 311 warnings)
+  0 errors and 13 warnings potentially fixable with the `--fix` option.
+

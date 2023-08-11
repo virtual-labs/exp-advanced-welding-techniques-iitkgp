@@ -1,0 +1,416 @@
+<!--
+ This HTML file is developed by
+Aditya Kameswara Rao Nandula
+Senior Project Scientist,
+Virtual Labs IIT Kharagpur.
+LinkedIn: https://in.linkedin.com/in/akraonandula/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title class="exn"></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <link rel="stylesheet" href="./css/adilaser.css">
+      <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+      <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+      <script src='https://cdn.plot.ly/plotly-2.24.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+      
+    <script src="./js/adilaser.js"></script> 
+</head>
+<body>
+  <body>
+    <div class="container p-3 my-3 text-primary text-center border">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img-fluid rounded" src="./images/vlabs.png" alt="VLabs logo">
+            </div>
+            <div class="col-md-6">
+                <p class="display-3"> <b> Virtual Labs <br> IIT Kharagpur </b> </p>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid rounded" src="./images/iitkgp.png" alt="IIT KGP Logo" >
+            </div>
+        </div>
+    
+  </div>
+    
+    
+    <div class="container p-3 my-5 text-left border">
+      <div class="row ">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <p class="text-center"> <h3 class=" my-5 text-primary"> Instructions: </h3>
+            <ol id="inst">
+              <li class="h5 text-secondary"> Before starting the process read the instructions completely</li>
+              <li>Select either <b>Laser Welding</b> or <b>Friction Stir Welding</b> </li>
+              <li>If <b>Laser Welding</b> is selected follow the below steps.</li>
+                <ul>
+                  <li>Select either <b>Meltpool and Temparature Evaluation</b> or <b>Laser Power Profile</b></li>
+                  <li> If <b>Meltpool and Temparature Evaluation</b> is selcted then follow the below dteps</li>
+                    <ul>
+                      <li> Select one <b>Laser-Power (in Watts)</b> value from <b>1000, 1500 or 2000</b> radio buttons</li>
+                      <li> Select one <b>Scan-speed (in mm/sec)</b> value from <b>1200, 1300 or 1500</b> radio buttons</li>
+                      <li> Click on <b>Submit</b> button and wait for the generation of the result</li>
+                      <li>Observe the out put below and its result</li>
+                      <li>Repeat the experiment by selecting the different values and <b>Submit</b></li>
+                    </ul>
+                  
+                  <li>If <b>Laser Power Profile</b> is selcted then follow the below dteps</li>
+                  <ul>
+                    <li> Enter the value of <b>Beam Diameter (cms)</b> radio buttons</li>
+                    <li> Enter the value of <b>Power (Watts) </b> radio buttons</li>
+                    <li> Click on <b>Submit</b> button and wait for the generation of the result</li>
+                    <li>Observe the <b>Power Distribution on Focal Plane</b> graph</li>
+                    <li>Repeat the experiment by entering the different values and <b>Submit</b></li>
+                  </ul>
+                  <li>Repeat the experiment by selecting the other tecnique.</li>
+                </ul>
+                
+                <li>If <b>Friction Stir Welding</b> is selected follow the below steps.</li>
+                  <ul>
+                    <li>Select the <b>Rotation Speed (RPM)</b> from dropdown list</li>
+                    <li> Enter the <b>Weld Speed (mm/min)</b> in the input box with in the range of <b>(0-450)</b></li>
+                    <li>Click on <b>Submit</b> button to start the process</li>
+                    <li>Observe the calculated <b>Torque (N-m)</b> value after the process</li>
+                    <li>Repeat the experiment with different values</li>
+                  </ul>
+              <li>Repeat the experiment with different <b>Welding Technique</b></li>
+
+            </ol>
+          </p> 
+          
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div><br>
+
+    <div class="container p-3 my-5 border">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 ">
+              <ul class="nav nav-pills nav-justified justify-content-center" role="tablist">
+              <li class="nav-item border border-3">
+                  <a class="nav-link" data-bs-toggle="tab" href="#lsw" onclick="$('#inst').hide();"><span class=" h3"> Laser Welding </span></a>
+              </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <li class="nav-item border border-3">
+                  <a class="nav-link" data-bs-toggle="tab" href="#fsw" onclick="$('#inst').hide();"><span class=" h3"> Friction Stir Welding </span></a>
+              </li>
+              </ul><br>
+              <div class="tab-content"><br>
+                  <div id="lsw" class=" p-3 tab-pane"><br>
+                      <ul class="nav nav-pills nav-justified justify-content-center" role="tablist">
+                        <li class="nav-item border border-3">
+                            <a class="nav-link" data-bs-toggle="tab" href="#lsw1"><span class=" h3"> Meltpool and Temparature Evaluation </span></a>
+                        </li> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <li class="nav-item border border-3">
+                            <a class="nav-link" data-bs-toggle="tab" href="#lsw2"><span class=" h3"> Laser Power Profile </span></a>
+                        </li>
+                        </ul><br>
+                        <div class="tab-content"><br>
+                          <div id="lsw1" class=" p-3 tab-pane"><br>
+                            <div class="container p-2">
+                              <div class="row p-3">
+                                  <div class="col-md-4">
+                                      <div class="row">
+                                          <div class="col h5">Laser-Power :<br> (in Watts) </div>
+                                          <div class="col">
+                                              <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="lp1" name="Laser-Power" value="s1" onclick="adi1=1;adilsr(0,0);">1000
+                                                  <label class="form-check-label" for="radio1"></label>
+                                                </div>
+                                                <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="lp2" name="Laser-Power" value="s2" onclick="adi1=2;adilsr(0,0);">1500
+                                                  <label class="form-check-label" for="radio2"></label>
+                                                </div>
+                                                <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="lp3" name="Laser-Power" value="s3" onclick="adi1=3;adilsr(0,0);">2000
+                                                  <label class="form-check-label"></label>
+                                                </div>    
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4"> 
+                                      <div class="row">
+                                          <div class="col h5">Scan-speed :<br> (in mm/sec) </div>
+                                          <div class="col">
+                                              <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="ss1" name="Scan-speed" value="s1" onclick="adi2=1;adilsr(0,0);">1200
+                                                  <label class="form-check-label" for="radio1"></label>
+                                                </div>
+                                                <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="ss2" name="Scan-speed" value="s2" onclick="adi2=2;adilsr(0,0);">1300
+                                                  <label class="form-check-label" for="radio2"></label>
+                                                </div>
+                                                <div class="form-check">
+                                                  <input type="radio" class="form-check-input" id="ss3" name="Scan-speed" value="s3" onclick="adi2=3;adilsr(0,0);">1500
+                                                  <label class="form-check-label"></label>
+                                                </div>    
+                                          </div>
+                                      </div> 
+                                  </div>
+                                  <div class="col-md-4">
+                                      <div class="row">
+                                          <div class="col border border-3 border-primary text-center btn btn-primary"> <span class="h5" onclick="adilsr(adi1,adi2);">Submit</span></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="container p-2">
+                              <div class="row p-3">
+                                  <div class="col">
+                                      <div id="adilasr"></div>
+                                  </div>
+                              </div>
+                          </div>   
+        
+                          </div>
+                          <div id="lsw2" class=" p-3 tab-pane"><br>
+                              <div class="container p-2">
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-9 h5">
+                                        <div class="row p-2">
+                                          <div class="col-sm-6 text-end">Beam Diameter (cms): <br> (Range in between 100 microns to 5cms) </div>
+                                          <div class="col-sm-6"> <input id="bdia" value=""/></div>
+                                        </div> 
+                                        <div class="row p-2">
+                                          <div class="col-sm-6 text-end">Power (Watts): <br> (Range in between 500 to 2000 Watts)</div>
+                                          <div class="col-sm-6"> <input id="powe" value=""/></div>
+                                        </div> 
+                                      </div>
+                                      <div class="col-md-3 justify-content-center"> 
+                                        <div class="row">
+                                          <div class="col border border-3 border-primary text-center btn btn-primary"> <span class="h5" onclick="evaluatePython(getElementById('bdia').value,getElementById('powe').value)">Submit</span></div>
+                                      </div>
+                                    </div>
+                                    <div id="adigrph"></div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                        
+                      
+                        </div>
+                  </div>
+                  <div id="fsw" class=" p-3 tab-pane"><br>
+                      <div class="container p-1">
+                        <div class="row">
+                          <div class="col h2">
+                            <div class="row">
+		<div class="col-md-4 col-lg-4">
+			<div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-sm-6 p-1 h5">
+						Rotational Speed (RPM) :
+					</div>
+					<div class="col-sm-6 p-1 h5">
+						<select name="Speed" id="Speed">
+							<option value="250">250</option>
+							<option value="500">500</option>
+							<option value="700">710</option>
+							<option value="1000">1000</option>
+							<option value="1400">1400</option>
+						</select>
+					</div>
+				</div>
+        <div class="row">
+					<div class="col-sm-6 p-1 h5">
+						Weld Speed (mm/min)<br> (Range: 0-450)
+					</div>
+					<div class="col-sm-6 p-1 h5">
+            <input class="Weld-Speed" type="number" name="quantity"
+						min="0" max="450">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col p-1 h5 ">
+            <button id="submit_values" class="btn btn-primary" type="button">Submit</button>
+					</div>
+				</div>
+        <div class="row">
+					<div class="col p-1 h5 ">
+            <p>Torque = <span class="mrr_value"><b></b></span></p>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+		<div class="col-md-8 col-lg-8 col-center img img-fluid">
+			<div id="slideshow">
+				<div><img src="images/1.png" data-fullscreen-image="images/1 .png" /></div>
+				<div><img src="images/2.png" data-fullscreen-image="images/2 (2).png" /></div>
+				<div><img src="images/3.png" data-fullscreen-image="images/2 .png" /></div>
+				<div><img src="images/4.png" data-fullscreen-image="images/3 .png" /></div>
+				<div><img src="images/5.png" data-fullscreen-image="images/4 .png" /></div>
+				<div><img src="images/6.png" data-fullscreen-image="images/4(2) .png" /></div>
+				<div><img src="images/7.png" data-fullscreen-image="images/5 .png" /></div>
+				<div><img src="images/8.png" data-fullscreen-image="images/6 .png" /></div>
+				<div><img src="images/9.png" data-fullscreen-image="images/6(2) .png" /></div>
+				<div><img src="images/10.png" data-fullscreen-image="images/8 .png" /></div>
+				<div><img src="images/11.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/12.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/13.png" data-fullscreen-image="images/10 .png" /></div>
+
+				<div><img src="images/14.png" data-fullscreen-image="images/12 .png" /></div>
+				<div><img src="images/15.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/16.png" data-fullscreen-image="images/13 .png" /></div>
+
+				<div><img src="images/17.png" data-fullscreen-image="images/15 .png" /></div>
+				<div><img src="images/18.png" data-fullscreen-image="images/16 .png" /></div>
+				<div><img src="images/19.png" data-fullscreen-image="images/17 .png" /></div>
+				<div><img src="images/20.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/21.png" data-fullscreen-image="images/18 .png" /></div>
+				<div><img src="images/22.png" data-fullscreen-image="images/19 .png" /></div>
+				<div><img src="images/23.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/24.png" data-fullscreen-image="images/20 .png" /></div>
+				<div><img src="images/25.png" data-fullscreen-image="images/21 .png" /></div>
+				<div><img src="images/26.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/27.png" data-fullscreen-image="images/22 .png" /></div>
+				<div><img src="images/28.png" data-fullscreen-image="images/23 .png" /></div>
+				<div><img src="images/29.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/30.png" data-fullscreen-image="images/24 .png" /></div>
+				<div><img src="images/31.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/32.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/33.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/34.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/35.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/36.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/37.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/38.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/39.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/40.png" data-fullscreen-image="images/15 .png" /></div>
+				<div><img src="images/41.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/42.png" data-fullscreen-image="images/16 .png" /></div>
+				<div><img src="images/43.png" data-fullscreen-image="images/17 .png" /></div>
+				<div><img src="images/44.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/45.png" data-fullscreen-image="images/18 .png" /></div>
+				<div><img src="images/46.png" data-fullscreen-image="images/19 .png" /></div>
+				<div><img src="images/47.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/48.png" data-fullscreen-image="images/20 .png" /></div>
+				<div><img src="images/49.png" data-fullscreen-image="images/21 .png" /></div>
+				<div><img src="images/50.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/51.png" data-fullscreen-image="images/22 .png" /></div>
+				<div><img src="images/52.png" data-fullscreen-image="images/23 .png" /></div>
+				<div><img src="images/53.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/54.png" data-fullscreen-image="images/24 .png" /></div>
+				<div><img src="images/55.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/56.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/57.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/58.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/59.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/60.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/61.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/62.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/63.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/64.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/65.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/66.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/67.png" data-fullscreen-image="images/28 .png" /></div>
+
+				<div><img src="images/68.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/69.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/70.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/71.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/72.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/73.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/74.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/75.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/76.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/77.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/78.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/79.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/80.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/81.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/82.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/83.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/84.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/85.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/86.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/87.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/88.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/89.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/90.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/91.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/92.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/93.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/94.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/95.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/96.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/97.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/98.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/99.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/100.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/101.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/102.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/103.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/104.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/105.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/106.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/107.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/108.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/109.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/110.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/111.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/112.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/113.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/114.png" data-fullscreen-image="images/25 .png" /></div>
+				<div><img src="images/115.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/116.png" data-fullscreen-image="images/26 .png" /></div>
+				<div><img src="images/117.png" data-fullscreen-image="images/27 .png" /></div>
+				<div><img src="images/118.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/119.png" data-fullscreen-image="images/28 .png" /></div>
+				<div><img src="images/120.png" data-fullscreen-image="images/29 .png" /></div>
+				<div><img src="images/121.png" data-fullscreen-image="images/9 .png" /></div>
+				<div><img src="images/122.png" data-fullscreen-image="images/30 .png" /></div>
+				<div><img src="images/123.png" data-fullscreen-image="images/30 .png" /></div>
+			</div>
+		</div>
+	</div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              <script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/browser.min.js"></script>
+	<script src="./js/breakpoints.min.js"></script>
+	<script src="./js/util.js"></script>
+	<script src="./js/main.js"></script>
+    </div>
+
+    </div>
+  </div>
+    <div class="container p-3 my-5 text-primary text-center border">
+      <div class="row">
+        <footer>
+          <div class="row ce">
+            <div class="col-sm-12">
+              <p class="h5"><i> Copyright ©2022 <a href="http://vlabs.iitkgp.ac.in/vlt/">Virtual Labs IIT Kharagpur</a> </i><br><br>
+              <a href="../license/index.html" target="_blank"> Licensing Terms </a>
+            </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+  </div>
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>
