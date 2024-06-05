@@ -9,7 +9,7 @@
         "c": "Resistance welding",
         "d": "Gas Welding"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer",
@@ -26,7 +26,7 @@
         "c": "Gas shielding",
         "d": "Chemical reaction"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer",
         "c":"Your are Wrong, Option \"a\" is correct answer",
@@ -43,7 +43,7 @@
         "c": "Equal to melting point temperature",
         "d": "Two times melting point temperature"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer",
@@ -60,7 +60,7 @@
         "c": "Excitation",
         "d": "Stimulated"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"d\" is correct answer",
         "b":"Your are Wrong, Option \"d\" is correct answer",
         "c":"Your are Wrong, Option \"d\" is correct answer",
@@ -77,7 +77,7 @@
         "c": "Both similar and dissimilar",
         "d": "Only non-metallic materials"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",
