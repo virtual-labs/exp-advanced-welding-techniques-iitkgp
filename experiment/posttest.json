@@ -9,6 +9,12 @@
         "c": "To generate friction",
         "d": "All of the above"
       },
+       "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "The entire volume of the workpiece",
         "c": "Surrounding atmosphere",
         "d": "The filler material used in the welding process"
+      },  
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Higher quality welds",
         "d": "All of the above"
       },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -42,6 +60,12 @@
         "c": "Tungsten inert gas welding",
         "d": "Submerged arc welding"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -52,6 +76,12 @@
         "b": "≈ 1",
         "c": ">1",
         "d": "=1"
+      },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -75,6 +105,12 @@
         "c": "A cavity formed in the metal during welding",
         "d": "The safety features that prevent accidental laser exposer"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -85,6 +121,12 @@
         "b": "Tool plunge depth",
         "c": "Tool rotational speed ",
         "d": "Pin profile"
+      },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -97,6 +139,12 @@
         "c": "Soft & wear resistant material",
         "d": "Hard & wear resistant material"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -105,6 +153,10 @@
       "answers":{ 
         "a": "Increases ",
         "b": "Decreases "
+      },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
