@@ -9,6 +9,12 @@
         "c": "To generate friction",
         "d": "All of the above"
       },
+       "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "The entire volume of the workpiece",
         "c": "Surrounding atmosphere",
         "d": "The filler material used in the welding process"
+      },  
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Higher quality welds",
         "d": "All of the above"
       },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -41,6 +59,12 @@
         "b": "Laser welding",
         "c": "Tungsten inert gas welding",
         "d": "Submerged arc welding"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -53,6 +77,12 @@
         "c": ">1",
         "d": "=1"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -63,6 +93,12 @@
         "b": "Welding of highly reflective material",
         "c": "Both a & b",
         "d": "None of the above"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -75,6 +111,12 @@
         "c": "A cavity formed in the metal during welding",
         "d": "The safety features that prevent accidental laser exposer"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -85,6 +127,12 @@
         "b": "Tool plunge depth",
         "c": "Tool rotational speed ",
         "d": "Pin profile"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -97,6 +145,12 @@
         "c": "Soft & wear resistant material",
         "d": "Hard & wear resistant material"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -105,6 +159,10 @@
       "answers":{ 
         "a": "Increases ",
         "b": "Decreases "
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"

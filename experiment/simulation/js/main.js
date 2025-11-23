@@ -46,7 +46,7 @@
 					if(timesRun === 122){
 						clearInterval(interval);
 
-						$(".mrr_value b").html(mrr + " N-m");
+						$(".mrr_value b").html(mrr.toFixed(2) + " N-m");
 					}
 				}, (150000/v));
 
