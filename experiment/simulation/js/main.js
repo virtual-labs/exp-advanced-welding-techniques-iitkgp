@@ -3,7 +3,8 @@
 
 	var copyRightHTML = '<div class="copyright">&copy; VLabs IIT KGP.</div>';
 	$("#footer").append(copyRightHTML);
-
+	const audio = new Audio('./images/fswsnd.mp3');
+	
 	$(document).on("change", "#polarity", function () {
 		if($('#polarity').val() == "normal"){
 			$("#slideshow").show();
@@ -43,9 +44,15 @@
 						.end()
 						.appendTo('#slideshow');
 					timesRun += 1;
+					if(timesRun === 13){
+						audio.play();
+					}
+					if(timesRun === 113){
+						audio.pause();
+					}
 					if(timesRun === 122){
 						clearInterval(interval);
-
+						
 						$(".mrr_value b").html(mrr.toFixed(2) + " N-m");
 					}
 				}, (150000/v));
@@ -54,21 +61,6 @@
 
 	function getRandomArbitrary(min, max) {
 	  return Math.random() * (max - min) + min;
-	}
-
-	function sound(src) {
-		this.sound = document.createElement("audio");
-		this.sound.src = src;
-		this.sound.setAttribute("preload", "auto");
-		this.sound.setAttribute("controls", "none");
-		this.sound.style.display = "none";
-		document.body.appendChild(this.sound);
-		this.play = function(){
-			this.sound.play();
-		}
-		this.stop = function(){
-			this.sound.pause();
-		}
 	}
 
 	var $window = $(window),
