@@ -20,7 +20,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-3.mp4#t=23.9,24\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-3.mp4#t=19.9,20\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -31,7 +31,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-2.mp4#t=21.9,22\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-2.mp4#t=19.9,20\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -42,7 +42,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-1.mp4#t=4.9,5\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-1.mp4#t=2.9,3\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -53,7 +53,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-6.mp4#t=51.9,52\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-6.mp4#t=27.9,28\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -64,7 +64,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-5.mp4#t=51.9,52\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-5.mp4#t=27.9,28\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -75,7 +75,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-4.mp4#t=50.9,51\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-4.mp4#t=27.9,28\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -86,7 +86,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-9.mp4#t=19.9,20\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-9.mp4#t=10.9,11\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -97,7 +97,7 @@ function adilsr(adi1,adi2){
 
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-8.mp4#t=19.9,20\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-8.mp4#t=9.9,10\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
@@ -107,7 +107,7 @@ function adilsr(adi1,adi2){
         $("#adilasr").show();
     $("#adivid").width('100%');
     $("#adivid").on("ended",function(){
-        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-7.mp4#t=19.9,20\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
+        $("#adilasr").html(" <div class=\"text-center\"> <div class=\" h3 text-primary text-center\"> <span> Result: Blow Holes </span> <br><br> <video id=\"adivid\" >  <source src=\"./images/ArcCase-7.mp4#t=9.9,10\" type=\"video/mp4\"> </video></div> <br> <div class=\"border border-3 text-center btn btn-success  rounded-pill\" onclick=\"adindt(adi1,adi2);\"> <span class=\"h6\">&nbsp; Restart &nbsp;</span></div> </div>");
         $("#adivid").width('100%');
           $("#adilasr").show();
     });
